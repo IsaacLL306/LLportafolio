@@ -81,6 +81,16 @@ html a{text-decoration: none;}
     color: rgb(60, 0, 255);
     transition: 500ms;
 }
+.repositorio{
+    display: block;
+}
+.repositorio a{
+    color: grey;
+}
+.repositorio a:hover{
+    color: black;
+    transition: 500ms;
+}
 
 /* Habilidades */
 
@@ -139,7 +149,20 @@ html a{text-decoration: none;}
     font-size: 40px;
     margin-top: 40px;
 }
-
+.ver-mas{
+    display: flex;
+    
+}
+.ver-mas p{
+    margin-left: 250px;
+    margin-top: 100px;
+    position: absolute;
+}
+.ver-mas img{
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+}
 /* Footer */
 
 .final{
