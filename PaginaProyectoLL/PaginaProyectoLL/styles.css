@@ -1,0 +1,176 @@
+html a{text-decoration: none;}
+/*body{
+    background-color: gray;
+}*/
+/*header*/
+.site-header.inicio{
+    background-image: url(img/backss.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px;
+}
+.titulos h1{
+    color: orange;
+}
+.algun_lado{
+    color: beige;    
+}
+.algun_lado:hover{
+    color: aqua;
+    border-style: solid;
+    border-width: 1px;
+    transition: 500ms;
+}
+
+/* Redes */
+
+.perfil{
+    background-color: black;
+    height: 40px;
+    max-height: 40px;
+}
+.redes{
+    display: flex;
+    margin-left: 30px;
+}
+.boton{
+    margin-right: 20px;
+}
+.perfil-detalles{
+    margin-right: 40px;
+    display: flex;
+    margin-top: -10px;
+    justify-content: flex-end;
+
+}
+.perfil-detalles h2{
+    color: orange;
+}
+.foto-p{ 
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 100px;
+}
+
+/* otros */
+
+.otros{
+    display: flex;
+    margin-left: 30px;
+}
+.playlist{
+    display: flex;
+}
+.otros img{
+    width: 40px;
+    height: 40px;
+}
+.playlist a{
+    color: rgb(5, 116, 79);
+}
+.playlist a:hover{
+    color: cornsilk;
+    transition: 500ms;
+}
+.curriculum a{
+    color: cadetblue;
+}
+.curriculum a:hover{
+    color: rgb(60, 0, 255);
+    transition: 500ms;
+}
+.repositorio{
+    display: block;
+}
+.repositorio a{
+    color: grey;
+}
+.repositorio a:hover{
+    color: black;
+    transition: 500ms;
+}
+
+/* Habilidades */
+
+.skills{
+    margin-top: 50px;
+    margin-left: 30px;   
+}
+.titulo{
+    margin-left: 60px;
+    font-size: 50px;
+}
+.titulo-skills{
+    color: rgba(61, 76, 88, 0.61);
+}
+.front{
+    display: flex;
+    max-height: 80px;
+    margin-top: 20px;
+}
+.lenguajes-skills{
+    font-size: 40px;
+}
+.lenguaje{
+    border-style: solid;
+    border-radius: 10px;
+    max-width: 150px;
+    max-height: 200px;
+    display: block;
+}
+
+/* Proyectos */
+
+.titulo-proyectos{
+    color: blueviolet;
+}
+.proyectos{
+    margin-left: 20px;
+}
+.proyecto-consesionaria{
+    display: flex;
+}
+.proyecto-consesionaria img{
+    width: 400px;
+    height: 200px;
+}
+.links a{
+    display: block;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+.links a:hover{
+    color: cornsilk;
+    transition: 500ms;
+}
+.link1{
+    font-size: 40px;
+    margin-top: 40px;
+}
+.ver-mas{
+    display: flex;
+    
+}
+.ver-mas p{
+    margin-left: 250px;
+    margin-top: 100px;
+    position: absolute;
+}
+.ver-mas img{
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+}
+/* Footer */
+
+.final{
+    margin-top: 20px;
+    background-color: black;
+    height: 100px;
+    display: flex;
+}
+.final h2{
+    color: orange;
+}
